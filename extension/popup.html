@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Family Time Guard ♡</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <main class="panel">
+    <div class="icon">🔔</div>
+    <div class="brand">Family Time Guard <span>♡</span></div>
+    <p class="tagline">A gentle reminder to make room for family.</p>
+
+    <section class="time-card">
+      <div class="label">Today's YouTube time</div>
+      <div id="todayTime" class="time">00:00:00</div>
+      <div id="status" class="status">Only active YouTube playback time is counted.</div>
+    </section>
+
+    <button id="reset" class="reset">Reset today's timer</button>
+
+    <div class="limit">
+      <span>Daily reminder</span>
+      <strong>2 hours</strong>
+    </div>
+
+    <p class="tip">You can always choose <b>Continue to YouTube</b> when the reminder appears.</p>
+  </main>
+  <script src="config.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

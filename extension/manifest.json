@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Family Time Guard ♡",
+  "version": "1.0.0",
+  "description": "A gentle local reminder after a set amount of active YouTube playback time.",
+  "permissions": ["storage"],
+  "host_permissions": ["https://www.youtube.com/*"],
+  "action": {
+    "default_title": "Family Time Guard ♡",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["config.js", "content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}
