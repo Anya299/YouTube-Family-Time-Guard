@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Family Time Guard</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #fff7f0, #ffe4ec);
+      color: #222;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 30px;
+    }
+
+    .card {
+      max-width: 850px;
+      width: 100%;
+      background: rgba(255,255,255,0.9);
+      border-radius: 28px;
+      padding: 50px;
+      text-align: center;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.12);
+    }
+
+    .icon {
+      font-size: 60px;
+      margin-bottom: 10px;
+    }
+
+    h1 {
+      font-size: 42px;
+      margin: 10px 0;
+    }
+
+    .tagline {
+      font-size: 19px;
+      color: #666;
+      margin-bottom: 35px;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 15px;
+      margin: 30px 0;
+    }
+
+    .feature {
+      padding: 22px;
+      background: #fff;
+      border-radius: 18px;
+    }
+
+    .feature strong {
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    .install {
+      margin-top: 35px;
+      padding: 25px;
+      background: #fff5f8;
+      border-radius: 20px;
+      text-align: left;
+    }
+
+    .install h2 {
+      text-align: center;
+    }
+
+    .install ol {
+      line-height: 2;
+    }
+
+    .note {
+      margin-top: 25px;
+      color: #777;
+      font-size: 14px;
+    }
+
+    @media (max-width: 650px) {
+      .card {
+        padding: 30px 20px;
+      }
+
+      h1 {
+        font-size: 32px;
+      }
+
+      .features {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="card">
+
+    <div class="icon">🔔</div>
+
+    <h1>Family Time Guard</h1>
+
+    <p class="tagline">
+      A simple reminder to balance screen time with family time.
+    </p>
+
+    <div class="features">
+
+      <div class="feature">
+        <strong>⏱️ Screen Time</strong>
+        Helps monitor YouTube watching time.
+      </div>
+
+      <div class="feature">
+        <strong>🔔 Reminder</strong>
+        Shows a reminder when the configured limit is reached.
+      </div>
+
+      <div class="feature">
+        <strong>❤️ Family Time</strong>
+        Encourages taking a break and spending time together.
+      </div>
+
+    </div>
+
+    <div class="install">
+
+      <h2>How to Install</h2>
+
+      <ol>
+        <li>Download the Family Time Guard extension files.</li>
+        <li>Open Chrome and go to <b>chrome://extensions/</b>.</li>
+        <li>Turn on <b>Developer mode</b>.</li>
+        <li>Click <b>Load unpacked</b>.</li>
+        <li>Select the <b>extension</b> folder.</li>
+        <li>Open YouTube and use the extension.</li>
+      </ol>
+
+    </div>
+
+    <p class="note">
+      Family Time Guard is a personal screen-time reminder project.
+    </p>
+
+  </div>
+
+</body>
+</html>
